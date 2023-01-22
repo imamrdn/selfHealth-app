@@ -44,12 +44,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions().position(hospital3).title("RS Umum Panti Rapih"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(hospital3))
 
-        val hospital4 = LatLng(-7.825625844955445, 110.37795295274316)
-        mMap.addMarker(MarkerOptions().position(hospital4).title("RSUD Kota Yogyakarta"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(hospital4))
-
-        val hospital5 = LatLng(-7.783830544699, 110.37764778157894)
-        mMap.addMarker(MarkerOptions().position(hospital5).title("RS Bethesda Yogyakarta"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(hospital5))
     }
 }
